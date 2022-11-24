@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<title>Knowledge Quiz</title>
+	<meta charset="utf-8"/>
+	<link rel="stylesheet" href="quiz.css">
+</head>
+<body>
+	<font face="Arial">
+	<h1 class="header">Knowledge Quiz</h1>
+	<form id="formu" method="post">
+		<h2>Responde a las siguientes preguntas</h2>
+		<ul>
+			<li>
+				<label><b>Pregunta 1</b><br> ¿En qué año llegamos a la Luna?</label>	
+				<input type="text" id="p1" class="boton" placeholder="Introduce tu respuesta..." autofocus>
+				<a href="javascript:popUp('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSDA8i11tfrfaYUC-17GgUE5tO0qgEwRaXwrw&usqp=CAU')" class="bot2">Mostrar imagen</a> 
+			</li>
+			<br>
+			<li>
+				<label><b>Pregunta 2</b><br> Nombre de la ciudad sagrada del hinduísmo</label>
+				<input type="text" id="p2" class="boton" placeholder="Introduce tu respuesta..." autofocus>
+				<a href="javascript:popUp('https://aws.traveler.es/prod/designs/v1/assets/1800x1200/139675.jpg')" class="bot2">Mostrar imagen</a>
+			</li>
+			<br>
+			<li>
+				<label><b>Pregunta 3</b><br> Apellido del primer presidente de los Estados Unidos</label>
+				<input type="text" id="p3" class="boton" placeholder="Introduce tu respuesta..." autofocus>
+				<a href="javascript:popUp('https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/Gilbert_Stuart_Williamstown_Portrait_of_George_Washington.jpg/220px-Gilbert_Stuart_Williamstown_Portrait_of_George_Washington.jpg')" class="bot2">Mostrar imagen</a>
+			</li>
+			<br>
+				<button onclick="preguntas()" class="bot">Enviar</button>
+		</ul>	
+		<script language="JavaScript" src="quiz.js"></script>
+	</form>
+	<br><br>
+	</font>
+</body>
+</html>
